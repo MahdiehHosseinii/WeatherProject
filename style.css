@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "my-font";
+    src: url('fonts/ShadowsIntoLight-Regular.ttf') format("truetype");
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "my-font";
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50%;
+    margin: 10vh auto 0 auto;
+    border: 1px solid silver;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 1px #c5bfbf;
+    padding: 30px;
+}
+
+.flex-container .top-title {
+    background: linear-gradient(to right, #ef6363, #e8a944, #ffff00, #50d950, deepskyblue, indigo, violet);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: -166px 0 0 0;
+}
+.search-box-control {
+    width: 532px;
+    text-align: left;
+    font-size: 16px;
+    background-color: aliceblue;
+    border: aliceblue;
+    border-radius: 10px;
+    line-height: 1.5px;
+}
+.weaher-box {
+    background-color: #50d950;
+    width: 100px;
+    margin: 10px;
+    text-align: left;
+    line-height: 75px;
+    font-size: 30px;
+}
+
