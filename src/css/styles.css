@@ -30,6 +30,7 @@ body, html {
     color: transparent;
     margin: -166px 0 0 0;
 }
+
 .search-box-control {
     width: 532px;
     text-align: left;
@@ -39,12 +40,5 @@ body, html {
     border-radius: 10px;
     line-height: 1.5px;
 }
-.weaher-box {
-    background-color: #50d950;
-    width: 100px;
-    margin: 10px;
-    text-align: left;
-    line-height: 75px;
-    font-size: 30px;
-}
+
 
