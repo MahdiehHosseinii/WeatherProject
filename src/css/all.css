@@ -944,7 +944,9 @@ readers do not read off random characters that represent icons */
   content: "\f1b0"; }
 
 .fa-cloud::before {
-  content: "\f0c2"; }
+  content: "\f0c2";
+    color: #fff;
+}
 
 .fa-trowel-bricks::before {
   content: "\e58a"; }

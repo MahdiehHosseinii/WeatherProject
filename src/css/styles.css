@@ -13,12 +13,10 @@ body, html {
 .flex-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
+    height: 100%;
     width: 50%;
-    margin: 10vh auto 0 auto;
-    border: 1px solid silver;
+    margin: 20px auto 0 auto;
+    border: 2px solid silver;
     border-radius: 20px;
     box-shadow: 0 0 5px 1px #c5bfbf;
     padding: 30px;
@@ -28,17 +26,60 @@ body, html {
     background: linear-gradient(to right, #ef6363, #e8a944, #ffff00, #50d950, deepskyblue, indigo, violet);
     -webkit-background-clip: text;
     color: transparent;
-    margin: -166px 0 0 0;
+    text-align: center;
 }
 
 .search-box-control {
-    width: 532px;
-    text-align: left;
+    width: 533px;
     font-size: 16px;
     background-color: aliceblue;
     border: aliceblue;
     border-radius: 10px;
-    line-height: 1.5px;
+    padding: 8px 12px 5px 28px;
+    margin-bottom: 40px;
+}
+
+.weather-box {
+    width: 250px;
+    height: 200px;
+    background-color: #599ac1;
+    border: 1px solid #599ac1;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px #c5bfbf
+}
+
+.clouds {
+    text-align: center;
+    margin: 10px;
+}
+.temperature-item {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin: 10px;
+    color: #9ad9ff;
+
+}
+
+.temperature {
+    font-weight: bold;
+}
+
+.unit {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.condition-text {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.day-and-clock {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px;
+    color: #fdfdfd;
 }
 
 

@@ -8,16 +8,31 @@
 </head>
 <body>
 <div class="flex-container" >
-        <div class="top-title">
+    <header class="top-title">
            <h1> Lykke with Weather <i class="fa-solid fa-umbrella-beach"></i> </h1> <br>
+    </header>
+    <div>
+         <form>
+               <i class="fa-solid fa-magnifying-glass"></i>
+               <input type="text" placeholder=" " name="Location" class="search-box-control">
+               <i class="fa-solid fa-location-dot"></i>
+         </form>
+    </div>
+    <aside class="weather-box">
+        <div class="clouds" >
+            <i class="fa-solid fa-cloud " ></i>
+            <i class="fa-solid fa-cloud " ></i>
+            <i class="fa-solid fa-cloud " ></i>
+            <i class="fa-solid fa-cloud " ></i>
+            <i class="fa-solid fa-cloud " ></i>
         </div>
-        <div>
-            <form>
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" placeholder=" " name="Location" class="search-box-control">
-                <i class="fa-solid fa-location-dot"></i>
-            </form>
+        <div class="temperature-item">
+            <div class="temperature">9</div>
+            <div class="unit">°C</div>
+            <p class="condition-text">, Overcast Clouds</p>
         </div>
+        <p class="day-and-clock" > Monday , 20:22 </p>
+    </aside>
 </div>
 </body>
 </html>
