@@ -1,13 +1,13 @@
 @font-face {
-    font-family: "my-font";
-    src: url('fonts/ShadowsIntoLight-Regular.ttf') format("truetype");
+    font-family: "ShadowsIntoLight-Regular";
+    src: url('../fonts/ShadowsIntoLight-Regular.ttf') format("truetype");
 }
 
 body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: "my-font";
+    font-family: "ShadowsIntoLight-Regular";
 }
 
 .flex-container {
