@@ -39,26 +39,32 @@ body, html {
     margin-bottom: 40px;
 }
 
+.item-control {
+    display: flex;
+    flex-direction: row;
+}
+
 .weather-box {
     width: 250px;
     height: 200px;
     background-color: #599ac1;
     border: 1px solid #599ac1;
     border-radius: 10px;
-    box-shadow: 0 0 5px 1px #c5bfbf
+    box-shadow: 0 0 5px 1px #c5bfbf;
+
 }
 
 .clouds {
     text-align: center;
     margin: 10px;
 }
+
 .temperature-item {
     display: flex;
     align-items: center;
     font-size: 25px;
     margin: 10px;
     color: #9ad9ff;
-
 }
 
 .temperature {
@@ -81,5 +87,41 @@ body, html {
     margin: 10px;
     color: #fdfdfd;
 }
+
+.wind-humidity-location {
+    font-size: 20px;
+    color: #000;
+    padding: 0 0 0 39px
+
+}
+
+.text-item-wind {
+    border: 1px solid #cc5ed9;
+    background-color: #cc5ed9;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px #c5bfbf;
+}
+
+.text-item-humidity {
+    border: 1px solid #cc7979;
+    background-color: #cc7979;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px #c5bfbf;
+}
+
+.text-item-location {
+    border: 1px solid #efa033;
+    background-color: #efa033;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px #c5bfbf;
+}
+
+
 
 
