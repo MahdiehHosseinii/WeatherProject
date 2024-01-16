@@ -8,14 +8,15 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: "ShadowsIntoLight-Regular";
+    overflow: hidden;
 }
 
 .flex-container {
     display: flex;
     flex-direction: column;
-    height: 90%;
+    height: 85%;
     width: 50%;
-    margin: 5px auto 0 auto;
+    margin: 8px auto 0 auto;
     border: 2px solid silver;
     border-radius: 20px;
     box-shadow: 0 0 5px 1px #c5bfbf;
@@ -133,6 +134,6 @@ body, html {
 
 footer {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
