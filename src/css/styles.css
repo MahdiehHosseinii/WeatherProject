@@ -29,6 +29,24 @@ body, html {
     -webkit-background-clip: text;
     color: transparent;
     text-align: center;
+    position: relative;
+}
+
+.flex-container .top-title:hover {
+    background: linear-gradient(to right, #ffbfff, #a143ff, #88e6ff, #225b22, #ffff00, #e8a944, #ef6363);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all 0.8s ease;
+}
+
+.flex-container .top-title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    background: linear-gradient(to right, #ffbfff, #a143ff, #88e6ff, #225b22, #ffff00, #e8a944, #ef6363);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 0.8s ease;
 }
 
 .search-control{
