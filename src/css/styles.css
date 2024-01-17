@@ -22,6 +22,12 @@ body, html {
     border-radius: 20px;
     box-shadow: 0 0 5px 1px #c5bfbf;
     padding: 30px;
+    position: relative;
+}
+.flex-container:hover {
+    border: 2px solid #d2d213;
+    box-shadow: 0 0 5px 1px #d2d213;
+    transition: all 0.5s ease;
 }
 
 .flex-container .top-title {
@@ -29,24 +35,13 @@ body, html {
     -webkit-background-clip: text;
     color: transparent;
     text-align: center;
-    position: relative;
 }
 
 .flex-container .top-title:hover {
     background: linear-gradient(to right, #ffbfff, #a143ff, #88e6ff, #225b22, #ffff00, #e8a944, #ef6363);
     -webkit-background-clip: text;
     color: transparent;
-    transition: all 0.8s ease;
-}
-
-.flex-container .top-title::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    background: linear-gradient(to right, #ffbfff, #a143ff, #88e6ff, #225b22, #ffff00, #e8a944, #ef6363);
-    -webkit-background-clip: text;
-    color: transparent;
-    transition: 0.8s ease;
+    transition: all 0.5s ease;
 }
 
 .search-control{
