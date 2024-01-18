@@ -24,6 +24,7 @@ body, html {
     padding: 30px;
     position: relative;
 }
+
 .flex-container:hover {
     border: 2px solid #d2d213;
     box-shadow: 0 0 5px 1px #d2d213;
@@ -58,6 +59,11 @@ body, html {
     border-radius: 10px;
     padding: 8px 12px 5px 15px;
     margin-bottom: 40px;
+}
+
+.search-box-control:hover {
+    background-color: #9cff9c;
+    box-shadow: 0 0 15px 4px #3aa42b;
 }
 
 .search-box-icons {
