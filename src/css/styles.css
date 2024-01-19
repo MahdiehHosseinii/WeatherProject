@@ -88,6 +88,11 @@ body, html {
     box-shadow: 0 0 5px 1px #c5bfbf;
 }
 
+.weather-box:hover {
+    background-color: rgba(89, 154, 193, 0.8);
+    box-shadow: 0 0 5px 1px #073f67;
+}
+
 .clouds {
     text-align: center;
     margin: 10px;
