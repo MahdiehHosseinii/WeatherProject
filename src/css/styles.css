@@ -15,8 +15,8 @@ body, html {
 .flex-container {
     display: flex;
     flex-direction: column;
-    height: 85%;
-    width: 50%;
+    min-height: min-content;
+    width: fit-content;
     margin: 8px auto 0 auto;
     border: 2px solid silver;
     border-radius: 20px;
@@ -167,6 +167,6 @@ body, html {
 
 footer {
     text-align: center;
-    margin-top: 60px;
+    margin-top: 15px;
 }
 
