@@ -31,6 +31,7 @@ body, html {
     transition: all 0.5s ease;
 }
 
+
 .flex-container .top-title {
     background: linear-gradient(to right, #ef6363, #e8a944, #ffff00, #50d950, deepskyblue, indigo, violet);
     -webkit-background-clip: text;
@@ -42,7 +43,6 @@ body, html {
     background: linear-gradient(to right, #ffbfff, #a143ff, #88e6ff, #225b22, #ffff00, #e8a944, #ef6363);
     -webkit-background-clip: text;
     color: transparent;
-    transition: all 0.5s ease;
 }
 
 .search-control{
@@ -59,11 +59,6 @@ body, html {
     border-radius: 10px;
     padding: 8px 12px 5px 15px;
     margin-bottom: 40px;
-}
-
-.search-box-control:hover {
-    background-color: #9cff9c;
-    box-shadow: 0 0 15px 4px #3aa42b;
 }
 
 .search-box-icons {
