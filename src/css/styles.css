@@ -46,27 +46,25 @@ body, html {
     color: transparent;
 }
 
-.search-control{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.search-container {
+    position: relative;
 }
 
-.search-box-control {
+.search-input {
     width: 533px;
     font-size: 16px;
     background-color: aliceblue;
     border: aliceblue;
     border-radius: 10px;
-    padding: 8px 12px 5px 15px;
+    padding: 8px 12px 5px 40px;
     margin-bottom: 40px;
 }
 
-.search-box-icons {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: 10px;
+.search-icon {
+    position: absolute;
+    color: #a23f2c;
+    top: 15px;
+    left: 10px;
 }
 
 .item-control {
@@ -165,4 +163,3 @@ footer {
     text-align: center;
     margin-top: 15px;
 }
-
