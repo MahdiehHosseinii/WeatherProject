@@ -102,16 +102,21 @@ body, html {
 
 .temperature {
     font-weight: bold;
+    position: relative;
 }
 
 .unit {
     font-size: 18px;
-    margin-left: 5px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+
 }
 
 .condition-text {
     font-weight: bold;
     font-size: 25px;
+    margin-left: 18px;
 }
 
 .day-and-clock {
