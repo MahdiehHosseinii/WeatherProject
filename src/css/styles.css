@@ -109,8 +109,8 @@ body, html {
 .unit {
     font-size: 18px;
     position: absolute;
-    margin-top: -10px;
-    margin-left: 15px;
+    left: 13px;
+    top: 20px;
 }
 
 .condition-text {
