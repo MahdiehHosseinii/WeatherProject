@@ -98,6 +98,7 @@ body, html {
     font-size: 25px;
     margin: 10px;
     color: #9ad9ff;
+    position: relative;
 
 }
 
@@ -105,14 +106,11 @@ body, html {
     font-weight: bold;
 }
 
-.place-unit {
-    position: relative;
-}
-
 .unit {
     font-size: 18px;
     position: absolute;
-    margin-top: -20px;
+    margin-top: -10px;
+    margin-left: 15px;
 }
 
 .condition-text {
