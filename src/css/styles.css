@@ -98,18 +98,21 @@ body, html {
     font-size: 25px;
     margin: 10px;
     color: #9ad9ff;
+
 }
 
 .temperature {
     font-weight: bold;
+}
+
+.place-unit {
     position: relative;
 }
 
 .unit {
     font-size: 18px;
-    margin-left: 12px;
-    margin-bottom: 10px;
     position: absolute;
+    margin-top: -20px;
 }
 
 .condition-text {
