@@ -23,7 +23,6 @@ body, html {
     border-radius: 20px;
     box-shadow: 0 0 5px 1px #c5bfbf;
     padding: 30px;
-    position: relative;
 }
 
 .flex-container:hover {
@@ -32,18 +31,21 @@ body, html {
     transition: all 0.5s ease;
 }
 
-
-.flex-container .top-title {
-    background: linear-gradient(to right, #ef6363, #e8a944, #ffff00, #50d950, deepskyblue, indigo, violet);
-    -webkit-background-clip: text;
-    color: transparent;
+.top-title {
     text-align: center;
 }
 
-.flex-container .top-title:hover {
-    background: linear-gradient(to right, #ffbfff, #a143ff, #88e6ff, #225b22, #ffff00, #e8a944, #ef6363);
+.title {
+    display: inline-block;
+    background: linear-gradient(to right, #ef6363, #e8a944, #ffff00, #50d950, deepskyblue, indigo, violet);
     -webkit-background-clip: text;
     color: transparent;
+    transition: background 0.3s ease;
+}
+
+.title:hover {
+    background: linear-gradient(to right, #ffbfff, #a143ff, #88e6ff, #225b22, #ffff00, #e8a944, #ef6363);
+    -webkit-background-clip: text;
 }
 
 .search-container {
@@ -58,12 +60,13 @@ body, html {
     border-radius: 10px;
     padding: 8px 12px 5px 40px;
     margin-bottom: 40px;
+    margin-top: 25px;
 }
 
 .search-icon {
     position: absolute;
     color: #4ba9de;
-    top: 15px;
+    top: 37px;
     left: 10px;
 }
 
@@ -168,3 +171,6 @@ footer {
     text-align: center;
     margin-top: 15px;
 }
+
+
+
