@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "ShadowsIntoLight-Regular";
-    src: url('../fonts/ShadowsIntoLight-Regular.ttf') format("truetype");
+    font-family: "ShortStack-Regular";
+    src: url('../fonts/ShortStack-Regular.ttf') format("truetype");
 }
 
 body, html {
@@ -9,7 +9,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "ShadowsIntoLight-Regular";
+    font-family: "ShortStack-Regular";
     overflow: hidden;
 }
 
@@ -19,14 +19,11 @@ body, html {
     min-height: min-content;
     width: fit-content;
     margin: 8px auto 0 auto;
-    border: 2px solid silver;
-    border-radius: 20px;
     box-shadow: 0 0 5px 1px #c5bfbf;
     padding: 30px;
 }
 
 .flex-container:hover {
-    border: 2px solid #d2d213;
     box-shadow: 0 0 5px 1px #d2d213;
     transition: all 0.5s ease;
 }
@@ -37,7 +34,7 @@ body, html {
 
 .title {
     display: inline-block;
-    background: linear-gradient(to right, #ef6363, #e8a944, #ffff00, #50d950, deepskyblue, indigo, violet);
+    background: linear-gradient(to right,#69b3e7, #d65bea, #ee52d6, #f8709a,#ffa480 );
     -webkit-background-clip: text;
     color: transparent;
     transition: background 0.3s ease;
