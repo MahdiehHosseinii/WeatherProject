@@ -146,46 +146,46 @@ body, html {
 
 .wind-humidity-location {
     font-size: 20px;
-    padding-left: 50px;
+    margin-left: 20px;
+    margin-top: 1px;
 }
 
-.text-item-wind {
-    border: 1px solid #cc5ed9;
-    background-color: #cc5ed9;
+.item-wind {
+    background-color: #f07fff;
     width: 250px;
     height: 40px;
     border-radius: 10px;
     box-shadow: 0 0 5px 1px #c5bfbf;
-    color: #fff;
-    font-weight: bold;
+    color: #ffffff;
+    font-size: 15px;
 }
 
-.text-item-humidity {
-    border: 1px solid #cc7979;
-    background-color: #cc7979;
+.item-humidity {
+    background-color: #f87da7;
     width: 250px;
     height: 40px;
     border-radius: 10px;
     box-shadow: 0 0 5px 1px #c5bfbf;
-    color: #fff;
-    font-weight: bold;
+    color: #ffffff;
+    font-size: 15px;
 }
 
-.text-item-location {
-    border: 1px solid #efa033;
-    background-color: #efa033;
+.item-location {
+    background-color: #f8b258;
     width: 250px;
     height: 40px;
     border-radius: 10px;
     box-shadow: 0 0 5px 1px #c5bfbf;
-    color: #fff;
-    font-weight: bold;
+    color: #ffffff;
+    font-size: 15px;
 }
 
-footer {
+footer p {
     text-align: center;
-    margin-top: 15px;
+    margin-top: 50px;
+    font-size: 12px;
 }
+
 
 
 
