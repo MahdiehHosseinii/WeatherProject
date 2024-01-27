@@ -18,7 +18,6 @@ body, html {
     flex-direction: column;
     min-height: min-content;
     width: fit-content;
-    margin: 8px auto 0 auto;
     box-shadow: 0 0 5px 1px #c5bfbf;
     padding: 30px;
 }
@@ -30,6 +29,7 @@ body, html {
 
 .top-title {
     text-align: center;
+    font-size: 12px;
 }
 
 .title {
@@ -37,7 +37,6 @@ body, html {
     background: linear-gradient(to right,#69b3e7, #d65bea, #ee52d6, #f8709a,#ffa480 );
     -webkit-background-clip: text;
     color: transparent;
-    transition: background 0.3s ease;
 }
 
 .title:hover {
@@ -47,6 +46,8 @@ body, html {
 
 .search-container {
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .search-input {
@@ -55,7 +56,7 @@ body, html {
     background-color: aliceblue;
     border: aliceblue;
     border-radius: 15px;
-    padding: 6px 12px 6px 12px;
+    padding: 6px 12px ;
     margin-bottom: 40px;
     margin-top: 25px;
 }
@@ -81,7 +82,8 @@ body, html {
     background-color: #4ba9de;
     border-radius: 50%;
     border: 1px solid #4ba9de;
-    top: -1px;
+    top: 25px;
+    right: -4px;
 }
 
 .item-control {
@@ -193,10 +195,14 @@ body, html {
     font-size: 15px;
 }
 
-footer p {
+.end {
     text-align: center;
     margin-top: 50px;
     font-size: 12px;
+}
+
+.end a {
+    text-decoration: none;
 }
 
 
