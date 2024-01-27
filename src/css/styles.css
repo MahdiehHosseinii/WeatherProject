@@ -70,8 +70,18 @@ body, html {
 .location-icon {
     position: absolute;
     color: #B197FC;
-    top: 40px;
-    right: 10px;
+    top: 15px;
+    right: 8px;
+}
+
+.under-location {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: #4ba9de;
+    border-radius: 50%;
+    border: 1px solid #4ba9de;
+    top: -1px;
 }
 
 .item-control {
