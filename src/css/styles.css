@@ -155,9 +155,12 @@ body, html {
 }
 
 .wind-humidity-location {
+    display: flex;
+    flex-direction: column;
     font-size: 20px;
     margin-left: 20px;
-    margin-top: 1px;
+    margin-top: -13px;
+
 }
 
 .item-wind {
