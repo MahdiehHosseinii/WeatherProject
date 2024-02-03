@@ -26,7 +26,7 @@ body, html {
     background-color: white;
     box-shadow: 0 0 5px 1px #bfc4c5;
     padding: 30px;
-    margin: 0 auto;
+    margin: auto;
     position: relative;
 }
 
@@ -58,9 +58,10 @@ body, html {
     width: 100%;
     font-size: 16px;
     background-color: aliceblue;
-    border: aliceblue;
+    border: none;
+    outline: none;
     border-radius: 15px;
-    padding: 6px 12px;
+    padding: 6px 12px 6px 34px;
     margin-bottom: 40px;
     margin-top: 25px;
 }
@@ -70,6 +71,7 @@ body, html {
     color: #4ba9de;
     top: 40px;
     left: 10px;
+    margin-right: 15px;
 }
 
 .location-icon {
@@ -88,17 +90,17 @@ body, html {
     border: 1px solid #4ba9de;
     top: 25px;
     right: -4px;
+    cursor: pointer;
 }
 
 .item-control {
     display: flex;
     flex-direction: row;
-    justify-content: center;
 }
 
 .weather-box {
     width: 50%;
-    height: 182px;
+    height: 35vh;
     background-color: #76a0f7;
     border-radius: 15px;
     box-shadow: 1px 1px 5px 1px #94ade2;
@@ -134,11 +136,13 @@ body, html {
 }
 
 .temperature {
+    font-weight: bold;
     font-size: 18px;
     position: relative;
 }
 
 .unit {
+    font-weight: bold;
     font-size: 18px;
     position: absolute;
     top: -10px;
@@ -146,18 +150,17 @@ body, html {
 }
 
 .condition-text {
+    font-weight: bold;
     font-size: 15px;
     margin-left: 26px;
 }
 
 .day {
-    position: absolute;
-    display: flex;
-    align-items: center;
+    font-weight: bold;
     font-size: 20px;
-    left: 10px;
-    bottom: 1px;
     color: #fdfdfd;
+    margin: 10px;
+    padding-top: 30px;
 }
 
 .clock {
@@ -166,47 +169,61 @@ body, html {
 
 .wind-humidity-location {
     width: 50%;
+    height: 35vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     margin-left: 20px;
-    margin-top: -13px;
-
 }
 
-.item-wind {
+.item {
+    width: 100%;
+    height: 45px;
+    color: #ffffff;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#item-wind {
     background-color: #f07fff;
     width: 100%;
-    height: 40px;
-    border-radius: 10px;
+    height: 45px;
+    border-radius: 15px;
     box-shadow: 0 2px 4px 1px #d48ed8;
     color: #ffffff;
     font-size: 15px;
+    display: flex;
+    align-items: center;
 }
 
-.item-humidity {
+#item-humidity {
     background-color: #f87da7;
     width: 100%;
-    height: 40px;
-    border-radius: 10px;
+    height: 45px;
+    border-radius: 15px;
     box-shadow: 0 2px 4px 1px #de89b1;
     color: #ffffff;
     font-size: 15px;
+    display: flex;
+    align-items: center;
 }
 
-.item-location {
+#item-location {
     background-color: #f8b258;
     width: 100%;
-    height: 40px;
-    border-radius: 10px;
+    height: 45px;
+    border-radius: 15px;
     box-shadow: 0 2px 4px 1px #e8ae87;
     color: #ffffff;
     font-size: 15px;
+    display: flex;
+    align-items: center;
 }
 
 .icon-in-item {
     color: #ffffff;
     margin-left: 10px;
-    margin-top: 18px;
 }
 
 footer {
@@ -222,7 +239,7 @@ footer span a {
 
 @media screen and (max-width: 480px) {
     .container {
-        width: 95%;
+        width: 98%;
     }
 
     .top-title {
@@ -241,6 +258,6 @@ footer span a {
 
     .wind-humidity-location {
         width: 100%;
-        margin: 5px;
+        margin: 10px;
     }
 }

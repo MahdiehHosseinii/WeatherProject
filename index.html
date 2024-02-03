@@ -15,9 +15,11 @@
         </header>
         <form>
             <div class="search-container">
-                <input type="text" placeholder=" " name="Location" class="search-input">
                 <i class="fa-solid fa-magnifying-glass fa-lg search-icon"></i>
-                <button class="under-location"><i class="fa-solid fa-location-dot fa-lg location-icon"></i></button>
+                <input type="text" placeholder=" " name="Location" class="search-input">
+                <a>
+                    <button class="under-location"><i class="fa-solid fa-location-dot fa-lg location-icon"></i></button>
+                </a>
             </div>
         </form>
         <div class="item-control">
@@ -29,16 +31,16 @@
                     <div class="temperature">9
                         <div class="unit">°C</div>
                     </div>
-                    <p class="condition-text"> , Overcast Clouds</p>
+                    <span class="condition-text"> , Overcast Clouds</span>
                 </div>
                 <div class="day"><span>Monday ,</span>
                     <span class="clock"> 20:22 </span>
                 </div>
             </aside>
             <div class="wind-humidity-location">
-                <p class="item-wind"><i class="fa-solid fa-wind fa-xs icon-in-item"></i> 4.63 km/h</p>
-                <p class="item-humidity"><i class="fa-solid fa-water fa-xs icon-in-item" style=""></i> 83%</p>
-                <p class="item-location"><i class="fa-solid fa-location-dot fa-xs icon-in-item"></i> paris FR</p>
+                <span class="item" id="item-wind"><i class="fa-solid fa-wind fa-xs icon-in-item"></i> 4.63 km/h</span>
+                <span class="item" id="item-humidity"><i class="fa-solid fa-water fa-xs icon-in-item" style=""></i> 83%</span>
+                <span class="item" id="item-location"><i class="fa-solid fa-location-dot fa-xs icon-in-item"></i> paris FR</span>
             </div>
         </div>
         <footer>
