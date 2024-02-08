@@ -2,47 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="src/css/styles.css" rel="stylesheet"/>
     <script src="https://kit.fontawesome.com/438497c513.js" crossorigin="anonymous"></script>
     <title>weather site</title>
 </head>
 <body>
-<div class="flex-container">
-    <header class="top-title">
-        <h1 class="title"> Lykke with Weather <i class="fa-solid fa-umbrella-beach"></i></h1>
-    </header>
-    <form>
-        <div class="search-container">
-            <input type="text" placeholder=" " name="Location" class="search-input">
-            <i class="fa-solid fa-magnifying-glass fa-lg search-icon"></i>
-            <button class="under-location"><i class="fa-solid fa-location-dot fa-lg location-icon"></i></button>
-        </div>
-    </form>
-    <div class="item-control">
-        <aside class="weather-box">
-            <div class="clouds">
-                <i class="fa-solid fa-cloud fa-2xl"></i>
+<div class="container">
+    <div class="flex-item">
+        <header class="top-title">
+            <h1 class="title"> Lykke with Weather <i class="fa-solid fa-umbrella-beach"></i></h1>
+        </header>
+        <form>
+            <div class="search-container">
+                <i class="fa-solid fa-magnifying-glass fa-lg search-icon"></i>
+                <input type="text" placeholder=" " name="Location" class="search-input">
+                <a>
+                    <button class="under-location"><i class="fa-solid fa-location-dot fa-lg location-icon"></i></button>
+                </a>
             </div>
-            <div class="temperature-item">
-                <div class="temperature">9
-                    <div class="unit">°C</div>
+        </form>
+        <div class="item-control">
+            <aside class="weather-box">
+                <div class="clouds">
+                    <i class="fa-solid fa-cloud fa-xl"></i>
                 </div>
-                <p class="condition-text"> , Overcast Clouds</p>
+                <div class="temperature-item">
+                    <div class="temperature">9
+                        <div class="unit">°C</div>
+                    </div>
+                    <span class="condition-text"> , Overcast Clouds</span>
+                </div>
+                <div class="day"><span>Monday ,</span>
+                    <span class="clock"> 20:22 </span>
+                </div>
+            </aside>
+            <div class="wind-humidity-location">
+                <span class="item" id="item-wind"><i class="fa-solid fa-wind fa-xs icon-in-item"></i> 4.63 km/h</span>
+                <span class="item" id="item-humidity"><i class="fa-solid fa-water fa-xs icon-in-item" style=""></i> 83%</span>
+                <span class="item" id="item-location"><i class="fa-solid fa-location-dot fa-xs icon-in-item"></i> paris FR</span>
             </div>
-            <div class="day"> Monday ,
-                <p class="clock"> 20:22 </p>
-            </div>
-        </aside>
-        <div class="wind-humidity-location">
-            <p class="item-wind"><i class="fa-solid fa-wind fa-xs icon-in-item"></i> 4.63 km/h</p>
-            <p class="item-humidity"><i class="fa-solid fa-water fa-xs icon-in-item" style=""></i> 83%</p>
-            <p class="item-location"><i class="fa-solid fa-location-dot fa-xs icon-in-item"></i> paris FR</p>
         </div>
+        <footer>
+            <span class=""><i class="fa-brands fa-github fa-sm"></i> Developed by <a
+                    href="https://github.com/mahdiehhosseinii">MahdiehHosseinii</a>
+            </span>
+        </footer>
     </div>
-    <footer>
-        <p><i class="fa-brands fa-github fa-sm"></i> Developed by <a href="https://github.com/mahdiehhosseinii">MahdiehHosseinii</a>
-        </p>
-    </footer>
 </div>
 </body>
 </html>
