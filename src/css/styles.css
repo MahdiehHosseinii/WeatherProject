@@ -48,7 +48,6 @@ body, html {
     color: transparent;
 }
 
-
 .search-container {
     position: relative;
     display: flex;
@@ -99,13 +98,12 @@ body, html {
 }
 
 .weather-box {
-    width: 50%;
-    height: 35vh;
+    width: 300px;
+    height: 200px;
     background-color: #76a0f7;
     border-radius: 15px;
     box-shadow: 1px 1px 5px 1px #94ade2;
     font-size: 16px;
-    position: relative;
 }
 
 .clouds {
@@ -114,7 +112,6 @@ body, html {
     margin: 18px 10px 32px 10px;
     position: relative;
     z-index: 1;
-
 }
 
 .clouds::before {
@@ -168,8 +165,8 @@ body, html {
 }
 
 .wind-humidity-location {
-    width: 50%;
-    height: 35vh;
+    width: 300px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
