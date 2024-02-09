@@ -8,47 +8,52 @@
     <title>weather site</title>
 </head>
 <body>
-<div class="container">
-    <div class="flex-item">
-        <header class="top-title">
-            <h1 class="title"> Lykke with Weather <i class="fa-solid fa-umbrella-beach"></i></h1>
-        </header>
-        <form>
-            <div class="search-container">
-                <i class="fa-solid fa-magnifying-glass fa-lg search-icon"></i>
-                <input type="text" placeholder=" " name="Location" class="search-input">
-                <a>
-                    <button class="under-location"><i class="fa-solid fa-location-dot fa-lg location-icon"></i></button>
-                </a>
+<section class="main-container">
+    <header>
+        <h1 class="main-heading"> Lykke with Weather <i class="fa-solid fa-umbrella-beach"></i></h1>
+    </header>
+    <form>
+        <div class="search-input-container">
+            <i class="fa-solid fa-magnifying-glass fa-lg search-icon"></i>
+            <input type="text" placeholder=" " name="Location" class="search-input">
+        </div>
+        <button class="submit-button">
+            <i class="fa-solid fa-location-dot fa-lg location-icon"></i>
+        </button>
+    </form>
+    <div class="search-result-container">
+        <aside class="weather-box">
+            <div class="weather-icon">
+                <i class="fa-solid fa-cloud fa-xl"></i>
             </div>
-        </form>
-        <div class="item-control">
-            <aside class="weather-box">
-                <div class="clouds">
-                    <i class="fa-solid fa-cloud fa-xl"></i>
+            <div class="temperature-item">
+                <div class="temperature">9
+                    <span class="unit">°C</span>
                 </div>
-                <div class="temperature-item">
-                    <div class="temperature">9
-                        <div class="unit">°C</div>
-                    </div>
-                    <span class="condition-text"> , Overcast Clouds</span>
-                </div>
-                <div class="day"><span>Monday ,</span>
-                    <span class="clock"> 20:22 </span>
-                </div>
-            </aside>
-            <div class="wind-humidity-location">
-                <span class="item" id="item-wind"><i class="fa-solid fa-wind fa-xs icon-in-item"></i> 4.63 km/h</span>
-                <span class="item" id="item-humidity"><i class="fa-solid fa-water fa-xs icon-in-item" style=""></i> 83%</span>
-                <span class="item" id="item-location"><i class="fa-solid fa-location-dot fa-xs icon-in-item"></i> paris FR</span>
+                <span class="condition-text"> , Overcast Clouds</span>
+            </div>
+            <div class="day"><span>Monday ,</span>
+                <span class="clock"> 20:22 </span>
+            </div>
+        </aside>
+        <div class="wind-humidity-location-container">
+            <div class="weather-result-item wind-item"><i class="fa-solid fa-wind fa-xs icon-in-item"></i> 4.63 km/h
+            </div>
+            <div class="weather-result-item humidity-item"><i class="fa-solid fa-water fa-xs icon-in-item" style=""></i>
+                83%
+            </div>
+            <div class="weather-result-item location-item"><i class="fa-solid fa-location-dot fa-xs icon-in-item"></i>
+                paris FR
             </div>
         </div>
-        <footer>
-            <span class=""><i class="fa-brands fa-github fa-sm"></i> Developed by <a
-                    href="https://github.com/mahdiehhosseinii">MahdiehHosseinii</a>
-            </span>
-        </footer>
     </div>
-</div>
+    <footer>
+            <span>
+                <i class="fa-brands fa-github fa-sm"></i>
+                Developed by
+                <a href="https://github.com/mahdiehhosseinii" target="_blank">MahdiehHosseinii</a>
+            </span>
+    </footer>
+</section>
 </body>
 </html>
