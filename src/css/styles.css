@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "ShortStack-Regular";
-    src: url('../fonts/ShortStack-Regular.ttf') format("truetype");
+    font-family: "Itim-Regular";
+    src: url('../fonts/Itim-Regular.ttf') format("truetype");
 }
 
 * {
@@ -9,9 +9,7 @@
 
 html {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "ShortStack-Regular", "sans-serif";
+    font-family: "Itim-Regular", "sans-serif";
     margin: 0 8px;
 }
 
@@ -19,7 +17,6 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: #edeff6;
 }
 
@@ -28,7 +25,7 @@ body {
     background-color: white;
     box-shadow: 0 0 5px 1px #bfc4c5;
     padding: 30px;
-    max-width: 600px;
+    max-width: 550px;
 }
 
 header {
@@ -65,7 +62,7 @@ form {
     outline: none;
     background-color: transparent;
     width: 100%;
-    font-family: ShortStack-Regular, sans-serif;
+    font-family: "Itim-Regular", "sans-serif";
 }
 
 .search-icon {
